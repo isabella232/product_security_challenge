@@ -2,9 +2,25 @@
 
 Hello friend,
 
-We are super excited that you want to be part of the Product Security team at Zendesk. **To get started, you need to fork this repository to your own GitHub profile and work off that copy.** 
+We are super excited that you want to be part of the Product Security team at Zendesk. Please follow the below instructions on making a "private" fork and use that for your work 
 
-### The Challenge
+## Getting Started
+
+1. Create a new **private** repository in your Github profile. A name like "product_security_challenge_<your_name>" should be fine.
+2. Clone this repository:  
+`git clone --bare https://github.com/zendesk/product_security_challenge`
+3. Change into the cloned directory:  
+`cd product_security_challenge`
+4. Push this into your private repository from Step 1:  
+`git push --mirror https://github.com/<your_username>/product_security_challenge_<your_name>.git`
+5. Change out of this directory and delete the `product_security_challenge` folder:  
+`cd .. && rm -rf product_security_challenge`
+6. Clone your private repo and make changes there.  
+`git clone https://github.com/<your_username>/product_security_challenge_<your_name>.git`
+7. Happy programming! When you are ready, let your Zendesk contact know and they will tell you who to share your repository with.
+
+
+## The Challenge
 
 Implement an easy, secure authentication mechanism that allows users to:
 - Create an account
