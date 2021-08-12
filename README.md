@@ -11,9 +11,9 @@ Please use the first option (Github Import) for cloning this repo and working on
 ### Github Import
 
 1. Login to Github with your account. Next to your profile there is the "+" button. Click that and then "Import Repository".  
-![Importing a new repository](./screenshots/1_import.png)  
+![Importing a new repository](.screenshots/1_import.png)  
 2. Paste this [repository URL](https://github.com/zendesk/product_security_challenge) in the clone URL field. Give your repository a name and set it to private. Press the `Begin Import` button.  
-![Importing a new repository](./screenshots/1_import.png)  
+![Importing a new repository](.screenshots/2_add.png)  
 3. Clone your new repo and happy coding! When you are ready, let your Zendesk contact know and they will tell you who to share your repository with.
 
 ### Manually
